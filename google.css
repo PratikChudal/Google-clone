@@ -44,11 +44,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
 
   }
   .Googlelogo{
     height:92px;
     width:272px ;
+    margin-bottom: 20px;
 
   }
   .search-box{
@@ -56,25 +59,17 @@
     position: relative;
     display: flex;
     align-items: center;
-    border: 1px solid ;
+    border: 0.5px solid ;
     border-color: #777;
     border-radius: 30px;
-    padding: 10px 20px;
-  
-    
+    padding: 10px 20px;   
   }
-  .buttons{
-    border: 1px solid #f8f9fa;
-    background-color: #f8f9fa;
-    padding: 10px 20px ;
-    margin: 5px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+ 
   .search-box input{
     flex: 1;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 100;
     outline: none;
     padding: 8px;
   }
@@ -85,3 +80,66 @@
     margin: 0 8px;
     cursor: pointer;
   }
+  .buttons{
+    margin-top: 30px;
+  }
+
+   .buttons button{
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    padding: 10px 20px ;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .buttons button:hover{
+    border: 1px solid #c6c6c6;
+    background-color: #f1f1f1;
+  }
+   .languages{
+    margin-top: 20px;
+    font-size: 14px;
+   }
+   footer{
+    margin-top: 160px;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    font-size: 14px;
+   }
+   .location{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    padding-left:15px 20px;
+    color: #1f1f1f;
+    font-size: 15px;
+    flex-wrap: wrap;
+   
+    
+   }
+   .links{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: #1f1f1f;
+    flex-wrap: wrap;
+    
+
+   }
+   .left,
+   .right{
+      display: flex;
+      gap: 27px;    
+   }
+   .left a,
+   .right a {
+     text-decoration: none;
+     color: #1f1f1f;
+     padding: 15px 0;
+     
+   }
+   .left a:hover,
+   .right a:hover{
+     text-decoration: underline;   
+   }
+   
