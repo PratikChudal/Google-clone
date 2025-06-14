@@ -24,6 +24,11 @@
     margin: 0 10px;
     cursor: pointer;
  }
+ .grid-icon{
+    color: #777;
+    line-height: 20px;
+
+ }
  .Sign-in{
     background-color: #1a73e8;
     color: white;
@@ -33,3 +38,50 @@
     margin-left: 10px;
     cursor: pointer ;
  }
+  main{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .Googlelogo{
+    height:92px;
+    width:272px ;
+
+  }
+  .search-box{
+    width: 580px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid ;
+    border-color: #777;
+    border-radius: 30px;
+    padding: 10px 20px;
+  
+    
+  }
+  .buttons{
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    padding: 10px 20px ;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .search-box input{
+    flex: 1;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    padding: 8px;
+  }
+  .search-icon,
+  .mic-icon,
+  .settings-icon{
+    color: #777;
+    margin: 0 8px;
+    cursor: pointer;
+  }
